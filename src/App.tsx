@@ -16,8 +16,8 @@ export function Content({ children, className }: ContentProps) {
 
 export function App() {
   return (
-    <main className="h-screen w-full flex items-center justify-center">
-      <section className="w-[42rem] h-[31.125rem] grid grid-cols-9 grid-rows-7 gap-8">
+    <main className="w-full min-h-screen flex items-center justify-center max-md:py-16">
+      <section className="md:w-[42rem] md:h-[31.125rem] md:grid md:grid-cols-9 md:grid-rows-7 max-md:flex max-md:flex-col max-md:px-8 gap-8">
         <Content className="col-start-1 col-span-4 row-start-1 row-span-full">
           <MusicInfo />
           <MusicControls />

@@ -6,7 +6,7 @@ export function MusicInfo({ direction = 'column' }: MusicInfoProps) {
     'flex w-full flex-col gap-7' :
     'flex w-full flex-row gap-7 items-center'
 
-  const imgClassNames = direction === 'column' ? 'w-full' : 'w-20'
+  const imgClassNames = direction === 'column' ? 'w-full' : 'w-16'
 
   return (
     <div className={containerClassNames}>

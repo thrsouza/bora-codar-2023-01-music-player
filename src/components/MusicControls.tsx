@@ -14,7 +14,7 @@ function MusicControlButton({ children }: MusicControlButtonProps) {
 
 export function MusicControls() {
   return (
-    <div className="flex justify-between w-full">
+    <div className="flex justify-between w-full max-w-[13rem]">
       <MusicControlButton>
         <Rewind size={28} weight='fill' />
       </MusicControlButton>

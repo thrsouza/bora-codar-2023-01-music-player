@@ -1,6 +1,6 @@
 export function MusicProgress() {
   return (
-    <div className='flex flex-col gap-3'>
+    <div className='flex flex-col gap-3 w-full'>
       <div className='w-full h-1 bg-smoky-600 rounded-md'>
         <span className='block h-1 w-[86%] bg-smoky-100 rounded-md'></span>
       </div>

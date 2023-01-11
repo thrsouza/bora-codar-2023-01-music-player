@@ -43,7 +43,11 @@ module.exports = {
           800: '#433f4d',
           900: '#3a3743',
         },
-      }
+      },
+      gridTemplateRows: {
+        7: 'repeat(7, minmax(0, 1fr))',
+      },
+
     },
   },
   plugins: [],
